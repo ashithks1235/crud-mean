@@ -1,0 +1,33 @@
+<div class="container mt-4">
+  <h3>Update User</h3>
+
+  <div class="card p-3">
+
+    <input [(ngModel)]="userDetails().name"
+           type="text"
+           placeholder="Name"
+           class="form-control mb-2">
+
+    <input [(ngModel)]="userDetails().email"
+           type="email"
+           placeholder="Email"
+           class="form-control mb-2">
+
+    <input [(ngModel)]="userDetails().mobile"
+           type="text"
+           placeholder="Mobile"
+           class="form-control mb-2">
+
+    <input [(ngModel)]="userDetails().age"
+           type="number"
+           placeholder="Age"
+           class="form-control mb-2">
+
+    <button (click)="editUser()"
+            class="btn btn-primary w-100">
+      UPDATE USER
+    </button>
+
+  </div>
+</div>
+
