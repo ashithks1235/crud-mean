@@ -6,7 +6,7 @@ import { inject, Injectable } from '@angular/core';
 })
 export class ApiServices {
   
-  apiUrl = 'http://localhost:3000';
+  apiUrl = 'https://crud-mean-server.onrender.com';
   http = inject(HttpClient)
 
   register(data: any) {
